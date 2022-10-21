@@ -1,0 +1,41 @@
+.container{
+    margin: 0px auto !important;
+}
+.height-body{
+    height: 92vh;
+}
+.container1{
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.infor{
+    height: auto;
+    width: 550px;
+    font-size: 30px;
+    text-align: left;
+}
+.glassstatic{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.3 );
+    position: relative;
+    background-image: url('./pic/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    transition: 1s width, 1s height;
+}
+.glassstatic:hover{
+    height: 500px;
+    width: 500px;
+}
